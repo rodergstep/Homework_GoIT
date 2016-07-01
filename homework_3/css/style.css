@@ -35,6 +35,15 @@
 ul.menu-list>li {
 	display: inline-block; 
 	padding: 13px 35px;
+	border-left: 1px solid transparent; 
+    border-right: 1px solid transparent;
+
+}
+
+#active {
+	background: #3a3a3a;
+    border-left: 1px solid #838383; 
+    border-right: 1px solid #838383;
 }
 
 ul.menu-list>li:hover {
@@ -43,7 +52,7 @@ ul.menu-list>li:hover {
     border-right: 1px solid #838383;
 }
 
-.menu-list>li>a{
+.menu-list>li>a {
 	color: white;
 	text-decoration: none;
 }
@@ -75,9 +84,9 @@ ul.menu-list>li:hover {
 }
 
 .left-menu a{
-color: #656363;
-text-decoration: none;
-padding: 30px;
+	color: #656363;
+	text-decoration: none;
+	padding: 30px;
 }
 
 .content {
